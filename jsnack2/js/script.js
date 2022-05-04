@@ -7,7 +7,9 @@ while (sum <= 50) {
     userNumber = parseInt(prompt('Inserisci un numero'));
     sum += userNumber;
     console.log(sum);
-    voidArray.push(userNumber);
+    if (sum <= 50) {
+        voidArray.push(userNumber);
+    }
 };
 
 console.log(userNumber);
